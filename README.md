@@ -10,8 +10,8 @@ A simple implementation of API keys without error handling or security features
 ## 🚀 Endpoints
 ### 1️⃣ Sign Up
 POST /signup
-- Request Body: { "username": "exampleUser" }
-- Response: { "username": "exampleUser", "api_key": "generatedKey123" }
+- Request Body: ``` { "username": "exampleUser" } ```
+- Response: ``` { "username": "exampleUser", "api_key": "generatedKey123" } ```
 
 ### 2️⃣ Get Message
 GET /message
