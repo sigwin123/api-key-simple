@@ -1,5 +1,5 @@
 const express = require('express');
-const { allKeys, newKey } = require('../db');
+const { newKey } = require('../db');
 const signupRouter = express.Router();
 
 signupRouter.post('/', express.json(), async (req, res) => {
