@@ -15,8 +15,8 @@ POST /signup
 
 ### 2️⃣ Get Message
 GET /message
-- Headers: x-api-key: <api_key>
-- Response: "Hello, exampleUser!"
+- Headers: ``` x-api-key: <api_key> ```
+- Response: ``` { "message": "Hello, exampleUser!" } ```
 
 ## 🔧 Possible Improvements 🚀
 - Switch to Token-Based Authentication (e.g., JWT).
